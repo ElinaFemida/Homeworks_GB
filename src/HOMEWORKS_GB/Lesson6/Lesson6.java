@@ -4,12 +4,12 @@ public class Lesson6 {
 
     public static void main(String[] args) {
         Counter counter = new Counter();
-        Cat cat1 = new Cat(counter, "Persik");
-        Cat cat2 = new Cat(counter, "Mars");
-        Dog dog1 = new Dog(counter,"Bobik");
-        Dog dog2 = new Dog(counter,"Baton");
-        Cat catn = new Cat(counter,"Murzik");
-        Dog dogn = new Dog(counter, "Tuzik");
+        Cat cat1 = new Cat(counter, "Persik", 200);
+        Cat cat2 = new Cat(counter, "Mars", 200);
+        Dog dog1 = new Dog(counter,"Bobik", 500,10);
+        Dog dog2 = new Dog(counter,"Baton", 500, 10);
+        Cat catn = new Cat(counter,"Murzik", 200);
+        Dog dogn = new Dog(counter, "Tuzik", 500, 10);
 
         cat1.run(100);
         cat2.run(200);
