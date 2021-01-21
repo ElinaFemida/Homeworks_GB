@@ -24,7 +24,7 @@ public class ArrayCheck {
                 try {
                     result += Integer.parseInt(arr[i][j]);
                 } catch (NumberFormatException e) {
-                    String message = String.format("Невозможно суммировать %s", arr[i][j]);
+                    String message = String.format("Невозможно суммировать значение ячейки %s, %s (%s)", i,j, arr[i][j]);
                     throw new MyArrayDataExeption(message, e);
                 }
             }
